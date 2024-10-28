@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+log/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Database and runtime files
+*.sqlite3
+*.db
+*.tgz
+*.sql
+dump.rdb
+*.bak
+mongodb/
+data/
+mongo_data/
+*.lock
+
+# Coverage and testing
+coverage/
+.nyc_output/
+test-results/
+tests/
+
+# Docker
+.docker/
+.dockerignore
+
+# Build outputs
+build/
+dist/
+tmp/
+temp/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lint and formatting
+.eslintcache
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+
+
+# npm package-lock
+package-lock.json

@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  api:
+    image: smartcontracts-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartcontracts-api
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      MONGO_URI: mongodb://mongodb:27017/smartcontracts
+      JWT_SECRET: your-production-jwt-secret
+      ENCRYPTION_KEY: your-production-encryption-key
+    depends_on:
+      - mongodb
+    networks:
+      - smartcontracts-network
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - smartcontracts-network
+
+networks:
+  smartcontracts-network:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local
