@@ -63,7 +63,7 @@ There are two ways to install the application:
 If you prefer to install the application as an npm package, run:
 
 ```bash
-npm install smartcontracts
+npm install smartcontracts.js
 ```
 
 #### 2. Cloning the Repository
