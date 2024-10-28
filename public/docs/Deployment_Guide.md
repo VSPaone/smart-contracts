@@ -120,8 +120,8 @@ If you prefer to run MongoDB in a Docker container:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/smart-contracts-nodejs.git
-   cd smart-contracts-nodejs
+   git clone https://github.com/VSPaone/smart-contracts.git
+   cd smart-contracts
    ```
 
 2. **Install Dependencies**:
@@ -179,8 +179,8 @@ If you prefer to run MongoDB in a Docker container:
 
 4. **Clone the Application Repository**:
    ```bash
-   git clone https://github.com/your-repo/smart-contracts-nodejs.git
-   cd smart-contracts-nodejs
+   git clone https://github.com/VSPaone/smart-contracts.git
+   cd smart-contracts
    ```
 
 5. **Set Up Environment Variables**:

@@ -70,8 +70,8 @@ npm install smartcontracts
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/smart-contracts-nodejs.git
-   cd smart-contracts-nodejs
+   git clone https://github.com/VSPaone/smart-contracts.git
+   cd smart-contracts
    ```
 
 2. **Install Dependencies**:

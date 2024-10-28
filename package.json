@@ -1,7 +1,7 @@
 {
   "name": "smartcontracts",
   "version": "1.0.1",
-  "description": "Smart contracts in Node.js without blockchain dependency",
+  "description": "Smart Contracts in Node.js is an innovative application that enables the creation, validation, and execution of smart contracts without the need for blockchain technology. Designed with a modular and event-driven architecture, it provides a scalable and decentralized solution for automating contract management across distributed nodes. The system ensures state consistency and integrity through a robust state management component and offers secure access via JWT-based authentication, encryption, and role-based permissions. By decoupling smart contracts from blockchain dependencies, this application offers flexibility, lower costs, and enhanced efficiency, making it an ideal choice for businesses and developers looking for streamlined contract automation solutions.",
   "main": "index.js",
   "directories": {
     "test": "tests"
